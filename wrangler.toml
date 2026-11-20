@@ -1,0 +1,9 @@
+name = "gtrm-api"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+NODE_ENV = "production"
+GOOGLE_REDIRECT_URI = "https://gtrm-api.workers.dev/auth/callback"
+APP_REDIRECT_URL = "/"
